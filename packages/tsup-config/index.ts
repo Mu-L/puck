@@ -48,6 +48,7 @@ const config: Options = {
                 getJSON(_, json) {
                   cssModule = json;
                 },
+                scopeBehaviour: "global",
               }),
             ]).process(source, { from: pluginData.pathDir });
 
